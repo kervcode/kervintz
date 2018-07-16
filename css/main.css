@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  list-style: none;
+  font-size: 300;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+   list-style: none;
+   color: #fff;
+   margin-right: 30px; 
+}
+
+a:hover {
+  color: #CDA100;
+}
+
+a:visited {
+  list-style: none;
+}
+
+.container {
+  text-align: center;
+  color: #2d3c49;
+} 
+
+/* work section */
+#work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+#work-items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* responsive images */
+.responsive-img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.image-caption {
+  color: #2d3c49;
+}
+
+/* displays logo and tilte across the screen for large screen */
+#main-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+  
+#main-header #k-logo {
+  width: 100px;
+}
+  
+header h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 22px;
+}
+  
+header h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+/* controlling logo size, padding, and margin */
+#my-logo img {
+  width: 100px;
+}
+
+#my-info h1 {
+  font-size: 55px;
+  padding: 10px;
+}
+
+#my-info h2 {
+  font-size: 20px;;
+}
+
+/* about me */
+#about-me {
+  width: 100%;
+  color: #eee;
+  background-image: url('../img/banner.jpeg'); /* credit: Pexels.com */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  min-height: 550px;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  font-size: normal;
+  line-height: 2;
+  margin: 40px 0;
+}
+
+span {
+  display: none;
+}
+
+.title {
+  color: #02b3e4;
+  padding: 50px 0 20px 0; 
+}
+
+.image-caption {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  
+}
+
+.h2-heading {
+ text-transform: uppercase;
+ padding-bottom: 15px; 
+}
+
+/* footer setting */
+#main-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d3c49;
+  color: #ccc;
+  font-size: 16px;
+  width: 100%;
+  height: 100px;
+}
+
+#main-footer p,#main-footer a {
+  padding: 15px 0;
+}
+
+#media-icons i{
+  font-size : 30px;
+}
+
+
+/* background image for the items */
+

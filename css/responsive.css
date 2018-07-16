@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+  #main-header{
+   padding: 20% 0;
+   flex-direction: column;
+  }
+  #my-info h1 {
+   padding-top: 50px;
+   font-family: 'Dancing Script', cursive; 
+  }
+
+  #about-me {
+    padding: 40px 35px;
+    max-height: 100vh;
+    line-height: 1.5;
+    font-size: 25px;
+  }
+}
+
+/* SCREEN LARGER THAN OR EQUAL TO 1024PX - SUCH AS IPAD IN LANSCAPE MODE */
+
+@media screen and (min-width:1024px){
+
+  #my-info h1 {
+    font-family: 'Dancing Script', cursive; 
+   }
+ 
+   #about-me {
+     padding: 40px 35px;
+   }
+
+  #about-me {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #about-me .h2-heading {
+    flex-basis: 25%;
+  }
+
+  #about {
+    flex-basis: 75%;
+  }
+
+  #main-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  #copyright {
+    order: -1;
+  }
+}
